@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="form1.js"></script>
+</head>
+<body background="../image/geometric-gradient-futuristic-background_23-2149116406.avif">
+    
+     <style>
+         
+         input
+         {
+            margin-top: 20px;
+         }
+         body
+         {
+            background-size: cover;
+         }
+        div
+        {
+            color: white;
+            text-align: center;
+            height: 400px;
+            width: 400px;
+            border-radius: 20px;
+            box-shadow: 3px 3px 10px white , -3px -3px 10px white, -3px 3px 10px white , 3px -3px 10px white;
+            padding-top: 20px;
+            margin: auto;
+            margin-top: 200px;
+            background-color: rgba(0, 255, 255, 0.113);
+        }
+    
+     </style>
+    <form  onsubmit="submitHandler(event)">
+
+        <div>
+            <label for="">Name</label>
+            <input type="text" name="" id="name">
+            <span id="output"></span><br><br>
+
+            <label for="">age</label>
+            <input type="number" name="" id="age">
+            <span id="output2"></span><br><br>
+
+            <label for="">city</label>
+            <input type="text" name="" id="city">
+            <span id="output3"></span><br><br>
+
+            <label for="">phone number</label>
+            <input type="tel" name="" id="phone">
+            <span id="output4"></span><br><br>
+
+            <label for="">email</label>
+            <input type="email" name="" id="email">
+            <span id="output5"></span><br><br>
+            
+            <input type="submit" value="Submit">
+        </div>
+        
+
+    </form>
+
+
+</body>
+</html>
